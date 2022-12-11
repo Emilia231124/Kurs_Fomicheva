@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Kurs_Fomicheva.Form1">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="m_view" Type="Kurs_Fomicheva.BoardView">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.025" Y="0.067" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAABAAAACCAAACAGAQAAAAAAAgIBAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_view" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kurs_Fomicheva.BoardView">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="selected" Type="Kurs_Fomicheva.List" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="3.017" />
+        <Point X="5.875" Y="3.017" />
+        <Point X="5.875" Y="2.062" />
+        <Point X="5.5" Y="2.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.028" Y="0.128" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAKAAAAEAAAAAABgABAAIAAgEABAAAAAIAIEIgAABgA=</HashCode>
+      <FileName>BoardView.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+      <Field Name="selected" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kurs_Fomicheva.CheckersBoard">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBCAAAgQAAAQIKAAwAUgJBCgBgCQAigEDAGEoASBAg=</HashCode>
+      <FileName>CheckersBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kurs_Fomicheva.List">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Kurs_Fomicheva.List.Enum">
+        <TypeIdentifier>
+          <NewMemberFileName>List.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <AssociationLine Name="head" Type="Kurs_Fomicheva.ListNode" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5.5" Y="1.625" />
+        <Point X="6.25" Y="1.625" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="tail" Type="Kurs_Fomicheva.ListNode" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5.5" Y="1.125" />
+        <Point X="6.25" Y="1.125" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAAACIAgAAAgBAABGEAAAAAAgAAAAAAAAEAEAAAQgA=</HashCode>
+      <FileName>List.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="head" />
+      <Field Name="tail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kurs_Fomicheva.ListNode">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAIAAAA=</HashCode>
+      <FileName>List.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kurs_Fomicheva.Computer">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="currentBoard" Type="Kurs_Fomicheva.CheckersBoard">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.025" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAEgAgAAEAAABAAAAEAAAAACgEgCAAAAAIAAAAgA=</HashCode>
+      <FileName>Computer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentBoard" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

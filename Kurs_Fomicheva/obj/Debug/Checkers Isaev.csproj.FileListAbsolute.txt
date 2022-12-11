@@ -1,0 +1,11 @@
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\bin\Debug\Kurs_Fomicheva.exe.config
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\bin\Debug\Kurs_Fomicheva.exe
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\bin\Debug\Kurs_Fomicheva.pdb
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\obj\Debug\Checkers Isaev.csproj.SuggestedBindingRedirects.cache
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\obj\Debug\Kurs_Fomicheva.Form1.resources
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\obj\Debug\Kurs_Fomicheva.Properties.Resources.resources
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\obj\Debug\Checkers Isaev.csproj.GenerateResource.cache
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\obj\Debug\Checkers Isaev.csproj.CoreCompileInputs.cache
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\obj\Debug\Kurs_Fomicheva.exe
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\obj\Debug\Kurs_Fomicheva.pdb
+C:\Users\pbiar\source\repos\Kurs_Fomicheva\obj\Debug\Checkers Isaev.csproj.AssemblyReference.cache
